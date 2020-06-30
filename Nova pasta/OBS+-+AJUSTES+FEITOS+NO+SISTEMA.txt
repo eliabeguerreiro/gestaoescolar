@@ -1,0 +1,9 @@
+1 - CHAMADAS EM SALA DUPLICADAS
+Foi necessário acrescentar no arquivo fazer_chamada.php uma verificação antes de inserir os dados no banco de dados, a verificação foi feita antes dos dois inserts na tabela, estará no arquivo corrigido.
+
+
+2 - ERRO NO TOTAL DE ALUNOS DOS PROFESSORES
+Alterei a forma de trazer os alunos, somando a cada vez que ele percorre cada disciplina, essa correção é feita na pagina index.php do painel do professor, a partir da linha 29
+
+
+
